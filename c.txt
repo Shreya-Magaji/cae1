@@ -8,4 +8,9 @@ switch(expression) {
     default:
         // Code to execute if no cases match
 }
+Key Points:
+break prevents fall-through (without it, execution continues to the next case).
 
+default is optional but useful as a fallback.
+
+Best for menu-driven programs and multi-condition checks.
