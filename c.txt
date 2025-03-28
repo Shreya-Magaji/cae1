@@ -19,4 +19,6 @@ switch (num) {
     case 2: printf("Two"); break;
     default: printf("Other");
 }
-.
+✅ Evaluates an expression and matches cases.
+✅ Uses break to prevent fall-through.
+✅ default handles unmatched cases..
